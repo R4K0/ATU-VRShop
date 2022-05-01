@@ -26,10 +26,15 @@ public class Seed : XRGrabInteractable, IPlantable
         if (_touchedSpot != null)
             return;
 
-        if (!collision.gameObject.TryGetComponent<GrowableSpot>(out var spot))
+        if (!collision.gameObject.TryGetComponent<ThirstySpot>(out var spot))
             return;
 
         _touchedSpot = spot;
+        
+        if (_touchedSpot.CanPlant(seed))
+        {
+            Plant(_touchedSpot);
+        }
     }
 
     private void OnCollisionExit(Collision other)

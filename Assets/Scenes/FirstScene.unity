@@ -2638,8 +2638,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_TeleportationProvider: {fileID: 168375687}
-  m_MatchOrientation: 3
-  m_TeleportTrigger: 2
+  m_MatchOrientation: 0
+  m_TeleportTrigger: 0
   m_Teleporting:
     m_PersistentCalls:
       m_Calls: []
@@ -3021,7 +3021,7 @@ PrefabInstance:
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
@@ -3106,7 +3106,7 @@ PrefabInstance:
     - target: {fileID: 1314265692847238293, guid: d48a14007988ed94086fe26967e21e0a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -199.59853
+      value: -204.39
       objectReference: {fileID: 0}
     - target: {fileID: 1314265692847238293, guid: d48a14007988ed94086fe26967e21e0a,
         type: 3}
@@ -3116,7 +3116,7 @@ PrefabInstance:
     - target: {fileID: 1314265692847238293, guid: d48a14007988ed94086fe26967e21e0a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -155
+      value: -145.72
       objectReference: {fileID: 0}
     - target: {fileID: 1314265692847238293, guid: d48a14007988ed94086fe26967e21e0a,
         type: 3}
@@ -3177,7 +3177,7 @@ PrefabInstance:
     - target: {fileID: 1314265692847238314, guid: d48a14007988ed94086fe26967e21e0a,
         type: 3}
       propertyPath: m_InteractionLayers.m_Bits
-      value: 4294967295
+      value: 4294967293
       objectReference: {fileID: 0}
     - target: {fileID: 1314265692847238315, guid: d48a14007988ed94086fe26967e21e0a,
         type: 3}
@@ -3344,7 +3344,7 @@ PrefabInstance:
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
@@ -3424,7 +3424,7 @@ PrefabInstance:
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
@@ -3571,8 +3571,113 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1654219366}
-    m_RemovedComponents: []
+    - target: {fileID: 3144188714135644410, guid: 4ea8c9039c0b3704ea4c5fd712955a77,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4294967294
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2394424409522245026, guid: 4ea8c9039c0b3704ea4c5fd712955a77, type: 3}
+    - {fileID: 2394424409522245024, guid: 4ea8c9039c0b3704ea4c5fd712955a77, type: 3}
+    - {fileID: 2394424409522245027, guid: 4ea8c9039c0b3704ea4c5fd712955a77, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4ea8c9039c0b3704ea4c5fd712955a77, type: 3}
+--- !u!1 &2394424408528219754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2394424409522245038, guid: 4ea8c9039c0b3704ea4c5fd712955a77,
+    type: 3}
+  m_PrefabInstance: {fileID: 2394424408528219753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &2394424408528219755
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2394424408528219754}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.006666667
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2394424408528219756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2394424408528219754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4253f32900bcc4d499d675566142ded0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 1654219366}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectActionTrigger: 0
+  m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
+  m_PlayAudioClipOnSelectEntered: 0
+  m_AudioClipForOnSelectEntered: {fileID: 0}
+  m_PlayAudioClipOnSelectExited: 0
+  m_AudioClipForOnSelectExited: {fileID: 0}
+  m_PlayAudioClipOnSelectCanceled: 0
+  m_AudioClipForOnSelectCanceled: {fileID: 0}
+  m_PlayAudioClipOnHoverEntered: 0
+  m_AudioClipForOnHoverEntered: {fileID: 0}
+  m_PlayAudioClipOnHoverExited: 0
+  m_AudioClipForOnHoverExited: {fileID: 0}
+  m_PlayAudioClipOnHoverCanceled: 0
+  m_AudioClipForOnHoverCanceled: {fileID: 0}
+  m_PlayHapticsOnSelectEntered: 0
+  m_HapticSelectEnterIntensity: 0
+  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectExited: 0
+  m_HapticSelectExitIntensity: 0
+  m_HapticSelectExitDuration: 0
+  m_PlayHapticsOnSelectCanceled: 0
+  m_HapticSelectCancelIntensity: 0
+  m_HapticSelectCancelDuration: 0
+  m_PlayHapticsOnHoverEntered: 0
+  m_HapticHoverEnterIntensity: 0
+  m_HapticHoverEnterDuration: 0
+  m_PlayHapticsOnHoverExited: 0
+  m_HapticHoverExitIntensity: 0
+  m_HapticHoverExitDuration: 0
+  m_PlayHapticsOnHoverCanceled: 0
+  m_HapticHoverCancelIntensity: 0
+  m_HapticHoverCancelDuration: 0
 --- !u!4 &2531651088963575557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4203867584319259271, guid: 4987c98cc968b88428b0ac90eb1fac76,
@@ -3589,7 +3694,7 @@ PrefabInstance:
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
@@ -3794,7 +3899,7 @@ PrefabInstance:
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
@@ -3871,10 +3976,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6957385759767195023}
     m_Modifications:
+    - target: {fileID: 17471433093022492, guid: 1ebf98f01234eb043bc8ab924873f3d6,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
@@ -4271,7 +4381,7 @@ PrefabInstance:
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4081903209165336124, guid: 1ebf98f01234eb043bc8ab924873f3d6,
         type: 3}

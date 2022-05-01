@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f7a34a-58cd-4367-8fc7-dd05da24f68d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/GrowableSpot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/IGrowableSpot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/IGrowableSpot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/IThirstySpot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/IThirstySpot.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/PlantDefinition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/PlantDefinition.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/ThirstySpot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/__Scripts/ThirstySpot.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Mesh/Female Hands.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Mesh/Female Hands.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Mesh/Female.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Mesh/Female.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Mesh/Male Hands.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Mesh/Male Hands.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Mesh/Male.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Mesh/Male.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Prefabs/Male 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Prefabs/Male 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Prefabs/Male 1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Distant Lands/Free Characters/Contents/Prefabs/Male 1.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mud Pile.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mud Pile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RightController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RightController.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/MudPile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/MudPile.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/GrowableSpot.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Seed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Seed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRI/Settings/Resources/InteractionLayerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/Outer Fence.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Prefabs/Outer Fence.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +44,11 @@
     <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="3056">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="3056" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -92,6 +76,7 @@
       <updated>1650485997980</updated>
       <workItem from="1650486017658" duration="1000" />
       <workItem from="1651331895276" duration="8567000" />
+      <workItem from="1651415544971" duration="417000" />
     </task>
     <servers />
   </component>
@@ -114,5 +99,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Seed.cs</url>
+          <line>33</line>
+          <properties documentPath="E:\Programming\Semester 8\VR Shopper Project\Assets\Seed.cs" initialLine="33" containingFunctionPresentation="method 'OnCollisionEnter'">
+            <startOffsets>
+              <option value="738" />
+            </startOffsets>
+            <endOffsets>
+              <option value="770" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
