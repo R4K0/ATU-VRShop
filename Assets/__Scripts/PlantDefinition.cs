@@ -7,7 +7,8 @@ public class PlantDefinition : ScriptableObject
 {
     public GameObject plantPrefab;
     public float timeToGrow;
+    public float thirstMultiplayer = 1f;
 
-    public String plantName;
+    public string plantName;
     public List<GrowableSpot.SpotType> plantableSpots;
 }
