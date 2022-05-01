@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a71f54f99d4dfaa7dcdf207e0bbbee, type: 3}
   m_Name: Tomato
   m_EditorClassIdentifier: 
-  plantPrefab: {fileID: 0}
-  timeToGrow: 135
-  thirstMultiplayer: 15
+  plantPrefab: {fileID: 8868264584823123603, guid: f9672c91b912fc540917aacec6ebf214,
+    type: 3}
+  timeToGrow: 60
+  thirstMultiplayer: 1
+  sellPrice: 15
+  buyPrice: 4
   plantName: Tomato
   plantableSpots: 0100000000000000

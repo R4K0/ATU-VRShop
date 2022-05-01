@@ -23,7 +23,7 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
     private SpotType spotType = SpotType.Single;
     
     private float _growthTime;
-    private bool _grown;
+    private bool Grown => _plantObject != null;
     private GameObject _plantObject;
 
     public UnityEvent<float> growthUpdated;
@@ -33,7 +33,6 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
         get => _plantDefinition;
         set
         {
-            _grown = false;
             _growthTime = 0f;
             _plantDefinition = value;
             
@@ -46,13 +45,13 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
     
     public virtual bool CanGrow()
     {
-        if (_grown)
+        if (Grown)
             return false;
         
         if (_plantDefinition == null)
             return false;
 
-        if (_plantObject != null)
+        if (_plantObject)
             return false;
         
         if (_growthTime >= _plantDefinition.timeToGrow)
@@ -66,10 +65,10 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
 
     public virtual void OnFullGrown()
     {
-        _grown = true;
+        if(_plantDefinition.plantPrefab != null)
+            _plantObject = Instantiate(_plantDefinition.plantPrefab, gameObject.transform.position, Quaternion.identity);
         
-        if(_plantObject)
-            _plantObject = Instantiate(_plantDefinition.plantPrefab, transform);
+        PlantDefinition = null;
     }
 
     public virtual void Plant(PlantDefinition plantDefinition)
