@@ -1,4 +1,7 @@
+using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 public class GrowableSpot : MonoBehaviour, IGrowableSpot
@@ -23,6 +26,8 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
     private bool _grown;
     private GameObject _plantObject;
 
+    public UnityEvent<float> growthUpdated;
+    public UnityEvent<PlantDefinition> plantStatus;
     public PlantDefinition PlantDefinition
     {
         get => _plantDefinition;
@@ -31,9 +36,14 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
             _grown = false;
             _growthTime = 0f;
             _plantDefinition = value;
+            
+            plantStatus.Invoke(value);
+
+            if(value != null && _plantObject != null)
+                Destroy(_plantObject);
         }
     }
-
+    
     public virtual bool CanGrow()
     {
         if (_grown)
@@ -56,8 +66,10 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
 
     public virtual void OnFullGrown()
     {
-        _plantObject = Instantiate(_plantDefinition.plantPrefab, transform);
         _grown = true;
+        
+        if(_plantObject)
+            _plantObject = Instantiate(_plantDefinition.plantPrefab, transform);
     }
 
     public virtual void Plant(PlantDefinition plantDefinition)
@@ -71,6 +83,8 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
     public virtual void DoGrow()
     {
         _growthTime += Time.deltaTime * growMultiplier;
+        
+        growthUpdated.Invoke(_growthTime);
     }
 
     public virtual bool CanPlant(PlantDefinition plantDefinition)

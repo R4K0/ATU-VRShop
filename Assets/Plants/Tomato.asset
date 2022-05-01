@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Tomato
   m_EditorClassIdentifier: 
   plantPrefab: {fileID: 0}
-  timeToGrow: 60
+  timeToGrow: 135
+  thirstMultiplayer: 15
   plantName: Tomato
-  plantableSpots: 01000000
+  plantableSpots: 0100000000000000
