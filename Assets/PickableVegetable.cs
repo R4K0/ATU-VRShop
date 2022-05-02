@@ -4,6 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class PickableVegetable : Vegetable
 {
     private bool _picked = false;
+    [SerializeField] private VegetableTree tree;
     
     protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
@@ -19,11 +20,10 @@ public class PickableVegetable : Vegetable
             Destroy(joint);
         }
         
-        var vegetableTree = GetComponentInParent<VegetableTree>();
-        if (!vegetableTree)
+        if (tree == null)
             return;
         
-        vegetableTree.PickedVegetable(this);
+        tree.PickedVegetable(this);
         _picked = true;
     }
 }

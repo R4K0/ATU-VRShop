@@ -88,7 +88,7 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
 
     public virtual bool CanPlant(PlantDefinition plantDefinition)
     {
-        return plantDefinition.plantableSpots.Contains(spotType);
+        return plantDefinition.plantableSpots.Contains(spotType) && !Grown;
     }
 
     private void Update()

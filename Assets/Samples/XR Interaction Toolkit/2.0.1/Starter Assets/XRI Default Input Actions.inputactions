@@ -983,9 +983,9 @@
             "actions": [
                 {
                     "name": "Teleport Select",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "02e43582-8973-4940-af06-dff6158e3df2",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -1031,7 +1031,7 @@
                 {
                     "name": "",
                     "id": "919c4a6c-22ed-4083-8e14-f30e91ff59fe",
-                    "path": "<XRController>{RightHand}/primaryButton",
+                    "path": "<XRController>{RightHand}/Primary2DAxis",
                     "interactions": "Sector(directions=-1,sweepBehavior=3)",
                     "processors": "",
                     "groups": "Generic XR Controller",
