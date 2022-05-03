@@ -6,6 +6,8 @@ using UnityEngine;
 public class PlantDefinition : ScriptableObject
 {
     public GameObject plantPrefab;
+    public GameObject seedPrefab;
+    
     public float timeToGrow;
     public float thirstMultiplayer = 1f;
 
