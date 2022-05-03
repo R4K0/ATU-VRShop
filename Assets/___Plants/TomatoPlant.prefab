@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8868264584823123602}
   - component: {fileID: 8868264584823123601}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TomatoPlant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,6 +58,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
       propertyPath: m_Name
       value: Tomato (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -314,6 +318,10 @@ PrefabInstance:
       value: Tomato (1)
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -566,6 +574,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
       propertyPath: m_Name
       value: Tomato
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: b7cf12fb849f2ce4592a36e9c9c8d4f9, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -881,6 +893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TomatoModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220179666349302668, guid: 62506e8738729cb409c6e23b0a7e1d2f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62506e8738729cb409c6e23b0a7e1d2f, type: 3}

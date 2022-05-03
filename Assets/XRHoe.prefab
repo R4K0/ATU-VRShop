@@ -56,7 +56,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8308972866421732032}
-  m_LocalRotation: {x: 0, y: 0.69558686, z: 0, w: 0.7184421}
+  m_LocalRotation: {x: 0, y: 0.69558686, z: 0, w: 0.718442}
   m_LocalPosition: {x: -264.24866, y: 15.6, z: -302.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -65,7 +65,7 @@ Transform:
   - {fileID: 6814699416434817710}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 88.148, z: 0}
 --- !u!54 &8308972866418663544
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -210,6 +210,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cd6f53404c51b54a86536301b06391e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumForce: 12
+  hitPosition: {fileID: 8308972866421587782}
+  occupancyCheckRadius: 8
+  pilePrefab: {fileID: 5452069533628207848, guid: b5363439e7b1aa7409e182d4024cbd9d,
+    type: 3}
 --- !u!1 &8308972866421832506
 GameObject:
   m_ObjectHideFlags: 0

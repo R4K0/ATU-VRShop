@@ -12,9 +12,12 @@ public class PickableVegetable : Vegetable
 
         if (_picked)
             return;
-        
-        print("Picked up");
 
+        if (gameObject.transform.parent)
+        {
+            gameObject.transform.SetParent(null);
+        }
+        
         if (TryGetComponent<HingeJoint>(out var joint))
         {
             Destroy(joint);

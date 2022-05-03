@@ -7,10 +7,9 @@ public class CameraFacer : MonoBehaviour
 {
     public Camera CameraToFace;
 
-    private void Start()
+    private void Awake()
     {
-        if (!CameraToFace)
-            CameraToFace = Camera.main;
+        CameraToFace = Camera.current;
     }
 
     private void LateUpdate()

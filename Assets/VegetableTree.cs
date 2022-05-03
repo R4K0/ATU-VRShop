@@ -9,8 +9,6 @@ public class VegetableTree : MonoBehaviour
     public void PickedVegetable(PickableVegetable vegetable)
     {
         if (!Vegetables.Remove(vegetable)) return;
-
-        vegetable.gameObject.transform.SetParent(null);
         
         if (Vegetables.Count == 0)
         {

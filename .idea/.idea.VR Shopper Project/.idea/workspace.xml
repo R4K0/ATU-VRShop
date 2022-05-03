@@ -3,21 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="d2f7a34a-58cd-4367-8fc7-dd05da24f68d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plants.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plants/Tomato.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plants/Tomato.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomatoPlant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomatoPlant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomatoStripped.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomatoStripped.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomatoStripped.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomatoStripped.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VegetableTree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VegetableTree.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/Plant 1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/Plant 1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/TomatoSeedling.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/TomatoSeedling.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraFacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraFacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Hoe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hoe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Input Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Input Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomatoPlant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomatoPlant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XRHoe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRHoe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/Mud Pile.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/Mud Pile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/MudPile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Prefabs/MudPile.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/XR Origin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Prefabs/XR Origin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/PlantDefinition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/PlantDefinition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/___Plants/TomatoSeedling.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/___Plants/TomatoSeedling.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +35,20 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Locomotion/Teleportation/BaseTeleportationInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Inputs/InputActionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e54c8e9537c04cca85de730f3fb85c9b53800/c8/68a72a45/IXRSelectInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/__Scripts/Seed.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/Interactors/XRBaseControllerInteractor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/Interactors/XRDirectInteractor.deprecated.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Locomotion/LocomotionProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/XRInteractionEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Locomotion/LocomotionSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/Controllers/XRControllerRecorder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e54c8e9537c04cca85de730f3fb85c9b53800/c8/68a72a45/IXRSelectInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/db7f68c084e842d98504c53b2b4dd3db13ca00/75/74a47472/LayerMask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/Interactors/XRDirectInteractor.deprecated.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/Interactables/XRGrabInteractable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.0.1/Runtime/Interaction/Interactors/XRBaseInteractor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e54c8e9537c04cca85de730f3fb85c9b53800/a4/2c5d4b5e/TeleportRequest.cs" root0="SKIP_HIGHLIGHTING" />
@@ -65,10 +70,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="10828">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="10828" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -97,7 +102,9 @@
       <workItem from="1650486017658" duration="1000" />
       <workItem from="1651331895276" duration="8567000" />
       <workItem from="1651415544971" duration="14798000" />
-      <workItem from="1651504124031" duration="9389000" />
+      <workItem from="1651504124031" duration="9979000" />
+      <workItem from="1651593036752" duration="2204000" />
+      <workItem from="1651596771841" duration="4228000" />
     </task>
     <servers />
   </component>
