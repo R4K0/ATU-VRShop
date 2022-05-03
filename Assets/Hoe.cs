@@ -15,6 +15,8 @@ public class Hoe : MonoBehaviour
     [Header("Mud Setup")]
     [SerializeField] private GameObject pilePrefab;
 
+    [Header("Hoe Setup")] [SerializeField] private ParticleSystem hitParticleSystem;
+
     private XRGrabInteractable _interactable;
 
     private const float ContactDistance = 3f;
@@ -52,9 +54,9 @@ public class Hoe : MonoBehaviour
         if (Vector3.Distance(contactPoint.point, hitPosition.position) > ContactDistance)
             return;
         
+        hitParticleSystem.Play();
         
         var colliders = Physics.OverlapSphere(contactPoint.point, occupancyCheckRadius, countMask);
-        
         if (colliders.Length > 0)
             return;
 
