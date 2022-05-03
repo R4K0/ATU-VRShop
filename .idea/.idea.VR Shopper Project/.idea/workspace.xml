@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d2f7a34a-58cd-4367-8fc7-dd05da24f68d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hoe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hoe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRHoe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRHoe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GardenTools/Watering Can/Materials/Watering Can.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GardenTools/Watering Can/Materials/Watering Can.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GardenTools/Watering Can/Watering Can.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GardenTools/Watering Can/Watering Can.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/XR Origin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Prefabs/XR Origin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,7 @@
       <workItem from="1651415544971" duration="14798000" />
       <workItem from="1651504124031" duration="9979000" />
       <workItem from="1651593036752" duration="2204000" />
-      <workItem from="1651596771841" duration="8590000" />
+      <workItem from="1651596771841" duration="11090000" />
     </task>
     <servers />
   </component>
@@ -116,5 +117,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/WaterParticle.cs</url>
+          <line>18</line>
+          <properties documentPath="E:\Programming\Semester 8\VR Shopper Project\Assets\WaterParticle.cs" initialLine="18" containingFunctionPresentation="method 'OnParticleCollision'">
+            <startOffsets>
+              <option value="531" />
+            </startOffsets>
+            <endOffsets>
+              <option value="565" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
