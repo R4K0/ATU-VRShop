@@ -3,20 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d2f7a34a-58cd-4367-8fc7-dd05da24f68d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraFacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraFacer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Hoe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Hoe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Input Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/XR Interaction Toolkit/2.0.1/Starter Assets/XRI Default Input Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomatoPlant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomatoPlant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XRHoe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XRHoe.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/Mud Pile.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/Mud Pile.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ProductTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProductTracker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/MudPile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Prefabs/MudPile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/XR Origin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Prefabs/XR Origin.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/___Plants/TomatoSeedling.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/___Plants/TomatoSeedling.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Seed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Seed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/___Plants/TomatoPlant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/___Plants/TomatoPlant.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +95,7 @@
       <workItem from="1651415544971" duration="14798000" />
       <workItem from="1651504124031" duration="9979000" />
       <workItem from="1651593036752" duration="2204000" />
-      <workItem from="1651596771841" duration="4228000" />
+      <workItem from="1651596771841" duration="7275000" />
     </task>
     <servers />
   </component>

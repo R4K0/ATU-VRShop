@@ -165,7 +165,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.84528136, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.6399999, y: 9.715282, z: 1.12}
+  m_ConnectedAnchor: {x: -256.6847, y: 11.175284, z: -192.66531}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 1
+  m_RetainTransformParent: 0
   m_AttachPointCompatibilityMode: 0
   vegetable: {fileID: 11400000, guid: e740a130565bfac40a6d14a436c390fc, type: 2}
   tree: {fileID: 8868264584823123601}
@@ -423,7 +423,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.84528136, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -2.437, y: 7.315283, z: 1.161}
+  m_ConnectedAnchor: {x: -252.65468, y: 9.725284, z: -190.26532}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -560,7 +560,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 1
+  m_RetainTransformParent: 0
   m_AttachPointCompatibilityMode: 0
   vegetable: {fileID: 11400000, guid: e740a130565bfac40a6d14a436c390fc, type: 2}
   tree: {fileID: 8868264584823123601}
@@ -681,7 +681,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0.84528136, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -2.437, y: 7.315283, z: 1.161}
+  m_ConnectedAnchor: {x: -256.7317, y: 7.325284, z: -190.22432}
   m_UseSpring: 0
   m_Spring:
     spring: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
-  m_RetainTransformParent: 1
+  m_RetainTransformParent: 0
   m_AttachPointCompatibilityMode: 0
   vegetable: {fileID: 11400000, guid: e740a130565bfac40a6d14a436c390fc, type: 2}
   tree: {fileID: 8868264584823123601}

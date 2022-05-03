@@ -1255,7 +1255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62ccf6b443064149bc2795ff86bf1bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growMultiplier: 10
+  growMultiplier: 1
   spotType: 1
   growthUpdated:
     m_PersistentCalls:
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b583b48b34e74bd38ad4b5c02bd0c619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spotToTrack: {fileID: 0}
+  spotToTrack: {fileID: 1009483859}
   headerText: {fileID: 5615021524372134841}
   waterTracker: {fileID: 619518273261357196}
   growthTracker: {fileID: 456640204625475958}

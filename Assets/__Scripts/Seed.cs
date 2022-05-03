@@ -26,7 +26,8 @@ public class Seed : XRGrabInteractable, IPlantable
         if (_touchedSpot != null)
             return;
 
-        if (!collision.gameObject.TryGetComponent<ThirstySpot>(out var spot))
+        var spot = collision.gameObject.GetComponentInParent<ThirstySpot>();
+        if (!spot)
             return;
 
         _touchedSpot = spot;
