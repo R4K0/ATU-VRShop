@@ -18,6 +18,9 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
     [SerializeField] private float growMultiplier = 1f;
     
     private PlantDefinition _plantDefinition;
+
+    [SerializeField]
+    private Transform attachSpot;
     
     [SerializeField]
     private SpotType spotType = SpotType.Single;
@@ -41,6 +44,24 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
             if(value != null && _plantObject != null)
                 Destroy(_plantObject);
         }
+    }
+
+    public void DetachPlant()
+    {
+        if (!Grown)
+            return;
+        
+        if(!_plantObject.TryGetComponent<DetachableVegetable>(out var pickableVegetable))
+            return;
+        
+        var rigidbodyComponent = _plantObject.GetComponent<Rigidbody>();
+        if (rigidbodyComponent != null)
+        {
+            rigidbodyComponent.constraints = RigidbodyConstraints.None;
+        }
+
+        pickableVegetable.spot = null;
+        _plantObject = null;
     }
     
     public virtual bool CanGrow()
@@ -66,7 +87,12 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
     public virtual void OnFullGrown()
     {
         if(_plantDefinition.plantPrefab != null)
-            _plantObject = Instantiate(_plantDefinition.plantPrefab, gameObject.transform.position, Quaternion.identity);
+            _plantObject = Instantiate(_plantDefinition.plantPrefab, attachSpot.transform.position, Quaternion.identity);
+
+        if (_plantObject.TryGetComponent(out DetachableVegetable vegetable))
+        {
+            vegetable.spot = this;
+        }
         
         PlantDefinition = null;
     }

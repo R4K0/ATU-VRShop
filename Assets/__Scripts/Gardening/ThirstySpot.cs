@@ -37,6 +37,9 @@ public class ThirstySpot : GrowableSpot, IThirstySpot, IHealthySpot
         if (IsDead)
             return false;
 
+        if (water <= 0f)
+            return false;
+
         return base.CanGrow();
     }
 
