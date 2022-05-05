@@ -31,6 +31,8 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
 
     public UnityEvent<float> growthUpdated;
     public UnityEvent<PlantDefinition> plantStatus;
+    private IGrowableSpot _growableSpotImplementation;
+
     public PlantDefinition PlantDefinition
     {
         get => _plantDefinition;
@@ -41,6 +43,8 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
             
             plantStatus.Invoke(value);
 
+            PostPlant();
+            
             if(value != null && _plantObject != null)
                 Destroy(_plantObject);
         }
@@ -103,6 +107,11 @@ public class GrowableSpot : MonoBehaviour, IGrowableSpot
             return;
 
         _plantDefinition = plantDefinition;
+    }
+
+    public virtual void PostPlant()
+    {
+        // Do nothing
     }
 
     public virtual void DoGrow()

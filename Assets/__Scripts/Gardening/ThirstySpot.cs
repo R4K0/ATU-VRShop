@@ -24,7 +24,11 @@ public class ThirstySpot : GrowableSpot, IThirstySpot, IHealthySpot
     public float Health
     {
         get => health;
-        private set => health = value;
+        private set
+        {
+            health = value;
+            healthUpdated.Invoke(value);
+        }
     }
 
     public float MaxHealth
@@ -35,9 +39,6 @@ public class ThirstySpot : GrowableSpot, IThirstySpot, IHealthySpot
     public override bool CanGrow()
     {
         if (IsDead)
-            return false;
-
-        if (water <= 0f)
             return false;
 
         return base.CanGrow();
@@ -52,7 +53,7 @@ public class ThirstySpot : GrowableSpot, IThirstySpot, IHealthySpot
     {
         if (water <= 0f)
         {
-            Damage(20f * Time.deltaTime);
+            Damage(5f * Time.deltaTime);
         } else {
             base.DoGrow();
             water -= Time.deltaTime * ActualThirstRate;
@@ -63,12 +64,26 @@ public class ThirstySpot : GrowableSpot, IThirstySpot, IHealthySpot
     public void Damage(float damage)
     {
         Health = Math.Max(0, Health - damage);
-        healthUpdated.Invoke(Health);
 
         if (IsDead)
         {
             PlantDefinition = null;
         }
+    }
+
+    public override void PostPlant()
+    {
+        base.PostPlant();
+
+        Health = 100;
+    }
+
+    public override bool CanPlant(PlantDefinition plantDefinition)
+    {
+        if (water <= 0f)
+            return false;
+        
+        return base.CanPlant(plantDefinition);
     }
 
     public bool IsDead => Health <= 0f;

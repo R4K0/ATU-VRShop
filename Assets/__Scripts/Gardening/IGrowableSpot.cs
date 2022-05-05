@@ -5,4 +5,6 @@ public interface IGrowableSpot
     void DoGrow();
     bool CanPlant(PlantDefinition plantDefinition);
     void Plant(PlantDefinition plantDefinition);
+
+    void PostPlant();
 }

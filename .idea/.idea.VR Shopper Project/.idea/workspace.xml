@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f7a34a-58cd-4367-8fc7-dd05da24f68d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Oculus Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/Oculus Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Open XR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/Open XR Package Settings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Gardening/ProductTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Gardening/ProductTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scenes/Sound.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/Sound.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Gardening/GrowableSpot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Gardening/GrowableSpot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Gardening/IGrowableSpot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Gardening/IGrowableSpot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Gardening/ThirstySpot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Gardening/ThirstySpot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/SceneController/CameraFacer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/SceneController/CameraFacer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/Project_for_Gesture_Based_UI_Development.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/Project_for_Gesture_Based_UI_Development.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +101,8 @@
       <workItem from="1651504124031" duration="9979000" />
       <workItem from="1651593036752" duration="2204000" />
       <workItem from="1651596771841" duration="11808000" />
-      <workItem from="1651681147489" duration="23810000" />
+      <workItem from="1651681147489" duration="24405000" />
+      <workItem from="1651769189233" duration="2335000" />
     </task>
     <servers />
   </component>
