@@ -22,7 +22,7 @@ public class ProductTracker : MonoBehaviour
         var soldAny = false;
         foreach (var vegetable in trackedProducts.Where(vegetable => vegetable != null)
                      .OrderBy(vegetable => Guid.NewGuid())
-                     .Take(UnityEngine.Random.Range(1, 2)))
+                     .Take(UnityEngine.Random.Range(1, 3)))
         {
             moneyEarned += vegetable.vegetable.sellPrice;
             trackedProducts.Remove(vegetable);

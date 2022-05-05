@@ -16,7 +16,7 @@ MonoBehaviour:
     type: 3}
   seedPrefab: {fileID: 8118603598843115565, guid: a73246a11e50dca49a274f317624ed5f,
     type: 3}
-  timeToGrow: 20
+  timeToGrow: 90
   thirstMultiplayer: 0.8
   sellPrice: 30
   buyPrice: 8

@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f7a34a-58cd-4367-8fc7-dd05da24f68d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/AIPathNavigator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AIPathNavigator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR Shopper Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NPC1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPC1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Simple city plain/Prefabs/Shop_B_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Simple city plain/Prefabs/Shop_B_prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Animations/Human.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Animations/Human.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Animations/Idle/Happy Idle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Animations/Idle/Happy Idle.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Animations/Walking/Contents@Strut Walking.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Animations/Walking/Contents@Strut Walking.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Prefabs/Table.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Prefabs/Table.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scenes/FirstScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Gardening/ProductTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Gardening/ProductTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/__Scripts/Gardening/TradeTableUIUpdater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/__Scripts/Gardening/TradeTableUIUpdater.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VR Shopper Project.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VR Shopper Project.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +92,7 @@
       <workItem from="1651504124031" duration="9979000" />
       <workItem from="1651593036752" duration="2204000" />
       <workItem from="1651596771841" duration="11808000" />
-      <workItem from="1651681147489" duration="23207000" />
+      <workItem from="1651681147489" duration="23810000" />
     </task>
     <servers />
   </component>
